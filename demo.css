@@ -45,7 +45,8 @@
         padding-bottom: 3rem;
         }
         .hero .left img{
-        width: 400px;
+        width: 300px;
+        margin-left: 150px;
         }
         .hero .right {
         color: var(--white);
@@ -168,14 +169,14 @@
                     line-height: 0.5rem;
                     color: var(--primary);
                     }
-                    /* .services-head + p{
+                     /* .services-head + p{
                     color: var(--white);
                     font-family: 'Lato', sans-serif;
                     margin-bottom: 1rem;
                     text-align: center;
                     margin-bottom: 6rem;
                     font-weight: 400;
-                    } */
+                    } * */
                     .card img{
                     width: 50px;
                     background:white;
@@ -218,10 +219,125 @@
                     section.services .card-grid .card:hover p{
                     color: var(--white);
                     }
-                section.contact{
-                    /* background-color: black; */
-                }
-                .about1{
-                    margin-left: 5px;
-                    /* background-color: aqua; */
-                }
+                    section#projects {
+                      margin-top: 0px;
+                      font-family: 'Lato', sans-serif;
+                      padding: 10rem;
+                      background-color: #f9f9f9;
+                      
+                  }
+                  
+                  section#projects h2 {
+                      text-align: center;
+                      margin-bottom: 2rem;
+                  }
+                  
+                  .card-projects {
+                      background-color: #fff;
+                      border: 1px solid #ccc;
+                      border-radius: 5px;
+                      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                      margin: 2rem 0;
+                      padding: 5rem;
+                      transition: transform 0.3s, box-shadow 0.3s;
+                  }
+                  
+                  .card-projects:hover {
+                      transform: translateY(-5px);
+                      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                      background-color: var(--primary);
+                      color: white;
+                  }
+                  
+                  .card-projects h3 {
+                      margin-top: -20px;
+                      margin-bottom: 20px;
+                  }
+                  
+                  .card-projects p {
+                      margin: 0.5rem 0 0;
+                  }
+                  
+                    .contact-content {
+                        display: flex;
+                        /* justify-content: space-between; */
+                        align-self: center; 
+                        line-height: 2;
+                        height: auto;
+                        width: 70%;
+                        background-color: rgb(17, 17, 17);
+                        margin-bottom: 10rem;
+                      }
+                      
+                      .contact-form {
+                        font-family: "Montserrat", sans-serif;
+                        padding: 5rem;
+                      }
+                      .contacth1{
+                        color: black;
+                        font-family: 'Lato', sans-serif;
+                        display: inline;
+                        margin-left: 400px;
+                      }
+                      
+                      #form-title {
+                        color: var(--primary);
+                        font-size: 0.6rem;
+                        text-transform: uppercase;
+                        letter-spacing: 1.2px;
+                        line-height: 1px;
+                        margin-left: 4rem;
+                        margin-bottom: 3rem;
+                      }
+                      
+                      fieldset {
+                        border: none;
+                      }
+                      
+                      .form-field {
+                        outline: none;
+                        width: 200%;
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+                          margin-bottom: .9rem;
+                      }
+                      
+                      #name, #email, #subject, #message {
+                        font-family: "Montserrat", sans-serif;
+                        color: #fff;
+                        outline: none;
+                        background: transparent;
+                        border: none;
+                        letter-spacing: 2px;
+                        font-size: .6rem;
+                        line-height: 2rem;
+                        padding-bottom: 0.7rem;
+                      }
+                      
+                      textarea, #message {
+                        width: 100%;
+                        color: #fff;
+                        overflow: visible;
+                      }
+                      
+                      #form-btn {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 3rem;
+                        border: none;
+                        color: white;
+                        font-size: 0.6rem;
+                        letter-spacing: 2.5px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        width: 200%;
+                        height: 60px;
+                        background-color: var(--primary);
+                        cursor: pointer;
+                        transition: all .3s ease;
+                      }
+                      
+                      #form-btn:hover {
+                        opacity: 0.9;
+                        transform: translateY(-2.5%);
+                        box-shadow: 0 0 15px 0 #000;
+                      }
